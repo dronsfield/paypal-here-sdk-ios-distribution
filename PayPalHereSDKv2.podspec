@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   
 
   s.requires_arc = true
-  s.ios.deployment_target    = '8.1'
+  s.ios.deployment_target    = '8.0'
 
   s.xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
